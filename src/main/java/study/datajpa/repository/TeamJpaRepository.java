@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @Repository
 @RequiredArgsConstructor
-public class TeamRepository {
+public class TeamJpaRepository {
     private final EntityManager em;
 
     public Team save(Team team){
